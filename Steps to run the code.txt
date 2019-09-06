@@ -1,0 +1,29 @@
+Some steps to be followed to run this code in Code block -------
+
+1)Go through these links and download these files or software and install DevCpp and Xampp.
+
+DevCpp : https://sourceforge.net/projects/orwelldevcpp/
+
+CodeBlocks : http://www.codeblocks.org/downloads
+
+Xampp : https://www.apachefriends.org/download.html
+
+Files : https://drive.google.com/file/d/1u8yrXuk54lOUmwJvXt8BRBPNuMUAlAje/view
+
+2)Extract the zip file of MySQL open it and follow these steps-
+ 
+a)Go to DevCpp -> MinGW64-> lib here paste libmysql.a file. 
+b)Go to DevCpp -> MinGW64-> include here paste all mysqlheaders files.
+c)Go to Debug folder of our code and paste libmysql.dll file.
+
+3)Open the Code block and follow these steps-
+ 
+a)Go to project-> build -> link settler and then add the path- DevCpp -> MinGW64-> lib-> libmysql.a in link settler.
+b)Go to project-> build -> search directories and then add the path DevCpp -> MinGW64-> include to search directories.
+
+4)Open the Xampp and start Apache and MySQL and then click on admin in right side of MySQL.Now phpMyAdmin window opens.
+5)Create new database and create new user account.
+6)Use the user account and database in our program to store, create order, calculate the bill, add new music in the database, 
+edit the music description and delete any item in the database.
+
+
